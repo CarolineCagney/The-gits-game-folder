@@ -8,7 +8,7 @@ Scene* GameOverScene::createScene()
     auto scene = Scene::create();
     
     // 'layer' is an autorelease object
-	auto layer = GameOverScene::create();
+    auto layer = GameOverScene::create();
 
     // add layer as a child to scene
     scene->addChild(layer);
@@ -29,9 +29,7 @@ bool GameOverScene::init()
     
     Size visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
+
     
     return true;
 }
-
-
-
